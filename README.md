@@ -1,7 +1,7 @@
 # Real Time Dangerous Object Detection and Alarm with NVIDIA Jetson
 
 ## Motivation
-We expect cups or security officers to be aware of situations that may pose a danger to us and to take precautions. But it is far from the truth to expect a person to thoroughly examine security cameras throughout the day.
+We expect cops or security officers to be aware of situations that may pose a danger to us and to take precautions. But it is far from the truth to expect a person to thoroughly examine security cameras throughout the day.
 
 However, it is not difficult to create safe zones in living spaces with Artificial Intelligence. Especially in children's playgrounds, school yards, work areas or in front of our house. With this project I have developed, it is possible to detect a dangerous object in real time. As soon as the object is detected, the alarm system works and warns you, preventing possible chaos.
 <p align= "center">
