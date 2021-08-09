@@ -24,7 +24,7 @@ PWM Ports are used in this Project. In Jetson Nano, you have to change the 33rd 
 You can reach my demo on this youtube **[link.] (BURAYA PROJE LİNKİ GELCEK)** . Model dataset downloaded from **[Kaggle](https://www.kaggle.com/atulyakumar98/gundetection)**. This dataset contains 3000 picture and labeled with yolov3 txt format. So the first thing I did was convert the dataset Yolo V3 to PASCAL VOC format. You can reach this python script **[right there.](https://github.com/melikecolak/Dangerous-Object-Alarm-Project/blob/main/txt-to-xml.py)**. 
 In training section, i used very useful library  **[Jetson-inference](https://github.com/dusty-nv/jetson-inference)**, then trained my dataset with SSD-Mobilenet model.
 
-## Run
+## Run !
 1. Build jetson-inference from the source with  **[this guide](https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md)** 
 2. Clone the project
 ``` bash
