@@ -34,8 +34,8 @@ git clone https://github.com/melikecolak/Dangerous-Object-Alarm-Project.git
 ``` bash
 cd Dangerous-Object-Alarm-Project
 ```
-4.Run the demo!
+4. Run the demo!
 ``` bash
-python3 danger_alert.py --model=model/ssd-mobilenet.onnx --labels=model/labels.txt --input-blob=input_0 --output-cvg=scores --output-bbox=boxes csi://0
+python3 danger_alert.py --model=model/ssd-mobilenet.onnx --labels=model/labels.txt --input-blob=input_0 --output-cvg=scores --output-bbox=boxes v4l2:///dev/video0
 ```
 
