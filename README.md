@@ -25,12 +25,12 @@ You can reach my demo on this youtube **[link.] (BURAYA PROJE LİNKİ GELCEK)** 
 In training section, i used very useful library  **[Jetson-inference](https://github.com/dusty-nv/jetson-inference)**, then trained my dataset with SSD-Mobilenet model.
 
 ## Run !
-1. Build jetson-inference from the source with  **[this guide](https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md)** 
-2. Clone the project
+1. Build jetson-inference from the source with  **[this guide](https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md)**
+2. Clone the project.
 ``` bash
 git clone https://github.com/melikecolak/Dangerous-Object-Alarm-Project.git
 ```
-3. Go to project directory
+3. Go to project directory.
 ``` bash
 cd Dangerous-Object-Alarm-Project
 ```
