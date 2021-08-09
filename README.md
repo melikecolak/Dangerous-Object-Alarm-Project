@@ -8,7 +8,7 @@ However, it is not difficult to create safe zones in living spaces with Artifici
 <img src="https://user-images.githubusercontent.com/73293751/128674807-f6defe21-cae5-4212-9634-cb0a56c4deda.jpeg" width="470" height="275">
 </p>
  
-# Project
+## Project
 
 ## Peripheral Devices
 - Nvidia Jetson 
@@ -22,5 +22,20 @@ PWM Ports are used in this Project. In Jetson Nano, you have to change the 33rd 
 
 ## How Does It Work?
 You can reach my demo on this youtube **[link.] (BURAYA PROJE LİNKİ GELCEK)** . Model dataset downloaded from **[Kaggle](https://www.kaggle.com/atulyakumar98/gundetection)**. This dataset contains 3000 picture and labeled with yolov3 txt format. So the first thing I did was convert the dataset Yolo V3 to PASCAL VOC format. You can reach this python script **[right there.](https://github.com/melikecolak/Dangerous-Object-Alarm-Project/blob/main/txt-to-xml.py)**. 
-Then training section i used very useful library  **[Jetson-inference](https://github.com/dusty-nv/jetson-inference)**. 
+In training section, i used very useful library  **[Jetson-inference](https://github.com/dusty-nv/jetson-inference)**, then trained my dataset with SSD-Mobilenet model.
+
+## Run
+1. Build jetson-inference from the source with  **[this guide](https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md)** 
+2. Clone the project
+``` bash
+git clone https://github.com/melikecolak/Dangerous-Object-Alarm-Project.git
+```
+3. Go to project directory
+``` bash
+cd Dangerous-Object-Alarm-Project
+```
+4.Run the demo!
+``` bash
+python3 danger_alert.py --model=model/ssd-mobilenet.onnx --labels=model/labels.txt --input-blob=input_0 --output-cvg=scores --output-bbox=boxes csi://0
+```
 
