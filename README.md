@@ -12,7 +12,7 @@ However, it is not difficult to create safe zones in living spaces with Artifici
 
 ## Peripheral Devices
 - Nvidia Jetson 
-- Logitech C270 Webcam
+- Logitech C270 Webcam or Raspberry Pi Camera
 - Breadboard
 - Jumpers
 - Passive Buzzer
@@ -35,6 +35,7 @@ git clone https://github.com/melikecolak/Dangerous-Object-Alarm-Project.git
 cd Dangerous-Object-Alarm-Project
 ```
 4. Run the demo!
+Camera depends on you. If you use csi camera instead usb, you have to change csi://0
 ``` bash
 python3 danger_alert.py --model=model/ssd-mobilenet.onnx --labels=model/labels.txt --input-blob=input_0 --output-cvg=scores --output-bbox=boxes v4l2:///dev/video0
 ```
