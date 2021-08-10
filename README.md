@@ -35,7 +35,7 @@ git clone https://github.com/melikecolak/Dangerous-Object-Alarm-Project.git
 cd Dangerous-Object-Alarm-Project
 ```
 4. Run the demo!
-Camera depends on you. If you use csi camera instead usb, you have to change csi://0. If you want to learn more about Camera Streaming and Multimedia, you can visit **[this link].(https://github.com/dusty-nv/jetson-inference/blob/master/docs/aux-streaming.md)**
+Camera depends on you. If you use csi camera instead usb, you have to change csi://0. If you want to learn more about Camera Streaming and Multimedia, you can visit **[this link.](https://github.com/dusty-nv/jetson-inference/blob/master/docs/aux-streaming.md)**
 ``` bash
 python3 danger_alert.py --model=model/ssd-mobilenet.onnx --labels=model/labels.txt --input-blob=input_0 --output-cvg=scores --output-bbox=boxes v4l2:///dev/video0
 ```
